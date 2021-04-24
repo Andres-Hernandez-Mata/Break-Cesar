@@ -23,6 +23,7 @@ try:
         mensaje = input('Ingresa la cadena: ')
         if mensaje != '':
             break
+        print(colored('La cadena es un campo obligatorio', 'red', attrs=['bold']))
 except Exception as error:    
     print(colored(error, 'red', attrs=['bold']))
 
